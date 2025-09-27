@@ -1,18 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 🔑 1. Enable Static Export
+  // 1. Enable Static Export
   output: 'export',
 
-  // 🔑 2. Set the Base Path (replace with your repo name)
+  // 2. REQUIRED: Set the Base Path to the name of your GitHub Repository.
+  //    This tells Next.js to prefix all asset and routing links with /my-portfolio/
   basePath: '/my-portfolio',
 
-  // 🔑 3. Optional: Disable server-side image optimization
+  // 3. REMOVE assetPrefix: It conflicts with basePath in this deployment model.
+  // assetPrefix: '/my-portfolio/', <--- DELETE THIS LINE
+
+  // 4. Optional: Disable server-side image optimization
   images: {
     unoptimized: true,
   },
-
-  // 🔑 4. Ensure images/css are loaded correctly
-  assetPrefix: '/site-diogo-alpendre/',
 };
 
-module.exports = nextConfig; // CommonJS export
+module.exports = nextConfig;
