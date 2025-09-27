@@ -4,7 +4,7 @@ const nextConfig = {
   output: 'export',
 
   // 🔑 2. Set the Base Path (replace with your repo name)
-  basePath: '/site-diogo-alpendre',
+  basePath: '/my-portfolio',
 
   // 🔑 3. Optional: Disable server-side image optimization
   images: {
