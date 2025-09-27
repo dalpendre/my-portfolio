@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // This maps the alias @/ to the src folder
+      "@/*": ["./src/*"] 
+      
+      // If you are using the Next.js standard setup without a src directory, 
+      // it would be: "@/*": ["./*"]
+    }
+  }
+}
