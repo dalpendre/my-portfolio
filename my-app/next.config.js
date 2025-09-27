@@ -5,7 +5,6 @@ const nextConfig = {
 
   // 2. REQUIRED: Set the Base Path to the name of your GitHub Repository.
   //    This tells Next.js to prefix all asset and routing links with /my-portfolio/
-  basePath: '/my-portfolio',
 
   // 3. REMOVE assetPrefix: It conflicts with basePath in this deployment model.
   // assetPrefix: '/my-portfolio/', <--- DELETE THIS LINE
