@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image aria-hidden src="/github-color.svg" alt="GitHub" width={16} height={16} />
+              <Image aria-hidden src="/img/github-color.svg" alt="GitHub" width={16} height={16} />
               GitHub
             </a>
             <a
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image aria-hidden src="/linkedin-color.svg" alt="LinkedIn" width={16} height={16} />
+              <Image aria-hidden src="/img/linkedin-color.svg" alt="LinkedIn" width={16} height={16} />
               Linkedin
             </a>
           </footer>
