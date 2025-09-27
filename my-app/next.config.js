@@ -8,6 +8,8 @@ const nextConfig = {
 
   // 3. REMOVE assetPrefix: It conflicts with basePath in this deployment model.
   // assetPrefix: '/my-portfolio/', <--- DELETE THIS LINE
+  basePath: process.env.NODE_ENV === 'production' ? '/my-portfolio' : '',
+
 
   // 4. Optional: Disable server-side image optimization
   images: {
