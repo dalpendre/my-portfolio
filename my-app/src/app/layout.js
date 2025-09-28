@@ -15,6 +15,9 @@ export default function RootLayout({ children }) {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="relative h-screen w-screen text-white">
+        <div className="bg-red-500 p-4 text-white mb-4">
+          If this is red, Tailwind is working!
+        </div>
         <Image
           src="./img/coding_wallpaper-js.webp"
           alt="Coding background"
