@@ -1,3 +1,4 @@
+import CustomImage from "CustomImage";
 import Image from "next/image";
 import { Button, Modal } from "react-bootstrap";
 
@@ -34,7 +35,7 @@ export default function CardModal(props){
                 </div>
                 <div className="col">
                   <a href={imgSrc} target="_blank">
-                    <Image src={imgSrc} width={2000} height={1000} alt={imgAlt} />
+                    <CustomImage src={imgSrc} width={2000} height={1000} alt={imgAlt} />
                   </a>
                 </div>
               </div>

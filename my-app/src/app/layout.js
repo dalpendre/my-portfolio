@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "./globals.css";
 import Image from "next/image";
+import CustomImage from 'CustomImage';
 
 export const metadata = {
   title: "Diogo Alpendre",
@@ -18,8 +19,8 @@ export default function RootLayout({ children }) {
         <div className="bg-red-500 p-4 text-white mb-4">
         If this is red, Tailwind is working!
       </div>
-        <Image
-          src="./img/coding_wallpaper-js.webp"
+        <CustomImage
+          src="/img/coding_wallpaper-js.webp"
           alt="Coding background"
           fill
           className="object-cover z-0 opacity-30"
@@ -56,7 +57,7 @@ export default function RootLayout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image aria-hidden src="./img/github-color.svg" alt="GitHub" width={16} height={16} />
+              <CustomImage aria-hidden src="/img/github-color.svg" alt="GitHub" width={16} height={16} />
               GitHub
             </a>
             <a
@@ -65,7 +66,7 @@ export default function RootLayout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image aria-hidden src="./img/linkedin-color.svg" alt="LinkedIn" width={16} height={16} />
+              <CustomImage aria-hidden src="/img/linkedin-color.svg" alt="LinkedIn" width={16} height={16} />
               Linkedin
             </a>
           </footer>

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import {projects} from "@/app/data/projects";
 import Card from "./projects/card";
+import CustomImage from "CustomImage";
 
 export default function Home() {
 
@@ -14,9 +15,9 @@ export default function Home() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-sm-auto">
-                                    <Image
+                                    <CustomImage
                                         className="rounded-full brightness-100 opacity-100"
-                                        src="./img/profile_pic.jpeg"
+                                        src="/img/profile_pic.jpeg"
                                         alt="Next.js logo"
                                         width={180}
                                         height={180}
@@ -29,9 +30,9 @@ export default function Home() {
                                     <p><b>2 years</b> of professional experience</p>
                                     <div className="row">
                                         <div className="col-sm-auto">
-                                            <Image 
+                                            <CustomImage
                                                 className="brightness-120 opacity-100"
-                                                src="./img/js-logo.png"
+                                                src="/img/js-logo.png"
                                                 alt="Javascript logo"
                                                 width={50}
                                                 height={50}
@@ -39,9 +40,9 @@ export default function Home() {
                                             />
                                         </div>
                                         <div className="col-sm-auto">
-                                            <Image 
+                                            <CustomImage
                                                 className="brightness-120 opacity-100"
-                                                src="./img/react.png"
+                                                src="/img/react.png"
                                                 alt="Next.js logo"
                                                 width={50}
                                                 height={50}
@@ -49,9 +50,9 @@ export default function Home() {
                                             />
                                         </div>
                                         <div className="col-sm-auto">
-                                            <Image 
+                                            <CustomImage
                                                 className="brightness-120 opacity-100"
-                                                src="./img/java-logo-v2.png"
+                                                src="/img/java-logo-v2.png"
                                                 alt="Java logo"
                                                 width={75}
                                                 height={75}
@@ -59,9 +60,9 @@ export default function Home() {
                                             />
                                         </div>
                                         <div className="col-sm-auto">
-                                            <Image 
+                                            <CustomImage 
                                                 className="brightness-120 opacity-100"
-                                                src="./img/spring-boot-rect-v2.png"
+                                                src="/img/spring-boot-rect-v2.png"
                                                 alt="Spring Boot logo"
                                                 width={100}
                                                 height={100}
