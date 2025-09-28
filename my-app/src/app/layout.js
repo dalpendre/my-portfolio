@@ -1,5 +1,5 @@
-import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css';
+import "./globals.css";
 import Image from "next/image";
 
 export const metadata = {
@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
       </head>
       <body className="relative h-screen w-screen text-white">
         <div className="bg-red-500 p-4 text-white mb-4">
-          If this is red, Tailwind is working!
-        </div>
+        If this is red, Tailwind is working!
+      </div>
         <Image
           src="./img/coding_wallpaper-js.webp"
           alt="Coding background"
