@@ -11,7 +11,7 @@ export const projects = [
     stack: "Python • PostgreSQL • ETL • Data Warehouse • Data Engineering • Real-time Data",
     stackImgs: "python-logo-final.png",
     repoUrl: "https://github.com/dalpendre/Projeto-Informatico-M1",
-    imgSrc: "/img/poster_projeto_informatico.png",
+    imgSrc: "./img/poster_projeto_informatico.png",
     imgAlt: "Projeto Informático",
     year: "2023"
   },
@@ -25,7 +25,7 @@ export const projects = [
     an intuitive user experience. This project demonstrates skills in full-stack development, cross-platform app design, and interactive community-driven features.`,
     stack: "HTML • Yii2 • PHP • Android • Java",
     repoUrl: "https://github.com/TheDanielz3/MatchPlanner",
-    imgSrc: "/img/matchplanner-index.png",
+    imgSrc: "./img/matchplanner-index.png",
     imgAlt: "",
     year: "2019"
   },
@@ -36,7 +36,7 @@ export const projects = [
     fullDescription: "Designed and implemented a PHP website to register E-Sports events.",
     stack: "React • C# • SQL",
     repoUrl: "https://github.com/dalpendre/CubixIO",
-    imgSrc: "/img/work_in_progress.jpg",
+    imgSrc: "./img/work_in_progress.jpg",
     imgAlt: "CubixIO",
     year: "2025"
   },
@@ -51,7 +51,7 @@ export const projects = [
     for academic research purposes.`,
     stack: "Linux • Bash",
     repoUrl: "https://github.com/dalpendre/SO.proj1_scholar_2019-2020.2191747",
-    imgSrc: "/img/work_in_progress.jpg",
+    imgSrc: "./img/work_in_progress.jpg",
     imgAlt: "",
     year: "2020"
   },
@@ -65,7 +65,7 @@ export const projects = [
     demonstrates proficiency in C programming, file system manipulation, and terminal-based utility development.`,
     stack: "Linux • C • GCC",
     repoUrl: "https://github.com/dalpendre/SO.proj2_freqCounter_2019-2020.2191747",
-    imgSrc: "/img/work_in_progress.jpg",
+    imgSrc: "./img/work_in_progress.jpg",
     imgAlt: "",
     year: "2020"
   },
