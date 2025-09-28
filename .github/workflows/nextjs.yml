@@ -57,7 +57,7 @@ jobs:
         # CRITICAL FIX: Inject the base path as an environment variable for the build.
         # This ensures all generated asset URLs are correctly prefixed with /my-portfolio.
         env:
-          NEXT_PUBLIC_BASE_PATH: /my-portfolio
+          NEXT_PUBLIC_BASE_PATH: /my-portfolio 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
