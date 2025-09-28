@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,11 +11,11 @@
     --foreground: #ffffff;
   }
 }
-/*content*/
+
 html, body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: 'Montserrat', sans-serif;
-  height: auto;
-  overflow: auto;
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  height: auto !important;
+  overflow: auto !important;
 }
