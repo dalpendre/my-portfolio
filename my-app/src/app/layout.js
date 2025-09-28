@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import "./globals.css";
+import 'bootstrap/dist/css/bootstrap.css';
 import Image from "next/image";
 
 export const metadata = {
