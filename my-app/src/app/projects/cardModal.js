@@ -17,7 +17,7 @@ export default function CardModal(props){
     ];
     
     return (<>
-        <Modal centered size="xl" show={show} onHide={() => setShow(false)}>
+        <Modal className="custom-teal-modal" centered size="xl" show={show} onHide={() => setShow(false)}>
           <Modal.Header closeButton>
             <Modal.Title className="w-100 text-center"><b>{title}</b></Modal.Title>
           </Modal.Header>

@@ -12,7 +12,8 @@ export default function Card(props) {
     <div 
       className="card h-100 position-relative"
       style={{ 
-        backgroundColor: "#D8DCD6", 
+        backgroundColor: "#D8DCD6",
+        border: "3px solid #00E6E6",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
@@ -32,7 +33,7 @@ export default function Card(props) {
 
       <div className="card-body text-center">
         <h4 className="card-title font-extrabold mt-3">{title}</h4>
-        <p className="text-gray-400">{stack}</p>
+        <p className="text-gray-600">{stack}</p>
         <p className="card-text">{description}</p>
       </div>
       <div className="d-flex justify-content-center gap-3 mb-3">  

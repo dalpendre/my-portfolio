@@ -25,7 +25,7 @@ export default function Home() {
                                     />
                                 </div>
                                 <div className="col-sm-auto">
-                                    <h1><b><b>Diogo</b></b> Alpendre</h1>
+                                    <h1 style={{color: "#00FFFF"}}><b><b>Diogo</b></b> Alpendre</h1>
                                     <h4 className="bio-text text-cyan-700">Full-Stack Developer</h4>
                                     <p><b>2 years</b> of professional experience</p>
                                     <div className="row">
@@ -73,18 +73,19 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="container">
-                              <div className="row align-items-left">
+                              <div className="row align-items-left text-white">
                                 <br/>
-                                <h4 className="relative z-50 cursor-pointer text-left text-white no-underline"><b>👨‍💻 About me</b></h4>
+                                <h4 className="relative z-50 cursor-pointer text-left text-white no-underline">👨‍💻 About me</h4>
                                 <p className="text-justify">
                                     I am a software developer with nearly two years of experience specializing in 
-                                    <span className="font-bold"> full-stack development</span> using 
-                                    <span className="font-bold"> React</span> and <span className="font-bold"> Spring Boot</span>.
+                                    <span className="font-bold" style={{color: "#00FFFF"}}> full-stack development</span> using 
+                                    <span className="font-bold" style={{color: "#00FFFF"}}> React</span> and 
+                                    <span className="font-bold" style={{color: "#00FFFF"}}> Spring Boot</span>.
                                 </p>
                                 <p className="text-justify">
-                                    Over the past 2 years, I have contributed to a critical software system 
-                                    for <span className="font-bold">organ transplantation management</span> in Saudi Arabia, 
-                                    supporting both <b>donation</b> and <b>transplantation</b> processes.
+                                    Over the past 2 years, I have contributed to a <span className="font-bold" style={{color: "#00FFFF"}}>critical software system </span>
+                                    for <span className="font-bold" style={{color: "#00FFFF"}}>organ transplantation management</span> in Saudi Arabia, 
+                                    supporting both <b style={{color: "#00FFFF"}}>donation</b> and <b style={{color: "#00FFFF"}}>transplantation</b> processes.
                                 </p>
                                 <p className="text-justify">
                                     My work focuses on creating efficient, user-friendly applications that help streamline 
