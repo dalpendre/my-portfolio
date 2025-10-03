@@ -53,7 +53,7 @@ export const projects = [
     repoUrl: "https://github.com/dalpendre/cone-detector-tf",
     imgSrc: "/img/cones.gif",
     imgAlt: "",
-    year: "2019"
+    year: "2021"
   },
   
   {
