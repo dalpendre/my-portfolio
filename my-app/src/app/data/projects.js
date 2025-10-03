@@ -17,6 +17,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "CubixIO",
+    description: "Smart cubic interface to lookup data in data warehouses",
+    fullDescription: `<p><u><b>In progress</b></u></p>
+      <p>This project is focused on designing and implementing an interactive 3D visualization of data, supported by <b>Three.js</b> and developed in <b>React</b>.
+      <p>The data model was based on <b>Intelligent Transport Systems (ITS)</b> protocols, including <b>CAM</b>, <b>DENM</b>, and <b>IVI</b>. For each protocol, the warehouse schema was structured around a centralized <b>fact table</b> complemented by multiple <b>dimension tables</b> to capture relevant attributes.</p>
+      <b>Work n seeder</b> was developed to generate test data and validate the correctness and reliability of the <b>ETL pipeline</b>.</p>
+    `,
+    stack: "React • C# • SQL",
+    repoUrl: "https://github.com/dalpendre/CubixIO",
+    imgSrc: "/img/work_in_progress.jpg",
+    imgAlt: "CubixIO",
+    year: "2025"
+  },
+  {
+    id: 3,
     title: "matchplanner",
     description: "Developed a web and mobile application for managing e-sports events, allowing users to register events, create posts, and comment within event communities.",
     fullDescription: `Built a full-stack application for web and mobile platforms to facilitate the organization and participation in e-sports events. Users can register events, 
@@ -30,20 +45,21 @@ export const projects = [
     year: "2019"
   },
   {
-    id: 3,
-    title: "CubixIO",
-    description: "Smart cubic interface to lookup data in data warehouses",
-    fullDescription: "Designed and implemented a PHP website to register E-Sports events.",
-    stack: "React • C# • SQL",
-    repoUrl: "https://github.com/dalpendre/CubixIO",
-    imgSrc: "/img/work_in_progress.jpg",
-    imgAlt: "CubixIO",
-    year: "2025"
-  },
-  {
     id: 4,
+    title: "conte-detector-tf",
+    description: "Tensorflow AI system to detect colored cones.",
+    fullDescription: ``,
+    stack: "Python • Tensorflow",
+    repoUrl: "https://github.com/dalpendre/cone-detector-tf",
+    imgSrc: "/img/cones.gif",
+    imgAlt: "",
+    year: "2019"
+  },
+  
+  {
+    id: 5,
     title: "Google scholar shell",
-    description: "Bash shell script to extract publication and citation data from Google Scholar profiles, enabling automated retrieval and organization of academic information for research analysis",
+    description: "Bash shell script to extract citation statistics from Google Scholar profiles",
     fullDescription: `Created a Bash-based tool that automates the extraction of scholar information from Google Scholar profiles.
     The script uses web scraping techniques and command-line utilities to parse and organize the data into a readable format. 
     Designed to handle multiple profiles efficiently, it provides researchers with quick access to structured academic metrics without manual searching. 
@@ -51,12 +67,12 @@ export const projects = [
     for academic research purposes.`,
     stack: "Linux • Bash",
     repoUrl: "https://github.com/dalpendre/SO.proj1_scholar_2019-2020.2191747",
-    imgSrc: "/img/work_in_progress.jpg",
+    imgSrc: "/img/so-project-one.gif",
     imgAlt: "",
     year: "2020"
   },
   {
-    id: 5,
+    id: 6,
     title: "File frequency validator",
     description: "Developed a C terminal program to count the number of bytes in files and the number of files in directories, providing a simple utility for analyzing file sizes and directory contents.",
     fullDescription: `Implemented a command-line program in C that recursively scans files and directories to calculate file sizes in bytes and count the number of files within 

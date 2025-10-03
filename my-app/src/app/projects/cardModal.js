@@ -3,18 +3,7 @@ import Image from "next/image";
 import { Button, Modal } from "react-bootstrap";
 
 export default function CardModal(props){
-    const {show, setShow, title, fullDescription, stack, repoUrl, imgSrc, imgAlt} = props;
-
-    const spreadStack = stack.split(' • ');
-    const colors = [
-        "bg-primary",
-        "bg-success",
-        "bg-danger",
-        "bg-warning",
-        "bg-info",
-        "bg-secondary",
-        "bg-dark"
-    ];
+    const {show, setShow, title, fullDescription, spreadStack, colors, repoUrl, imgSrc, imgAlt} = props;
     
     return (<>
         <Modal className="custom-teal-modal" centered size="xl" show={show} onHide={() => setShow(false)}>
@@ -24,7 +13,7 @@ export default function CardModal(props){
           <Modal.Body className="w-100 text-center">
             <p>
                 {spreadStack.map((element, index) => (
-                    <span style={{ marginRight: "10px" }} key={index} className={`badge ${colors[index % colors.length]}`}>
+                    <span style={{ marginRight: "10px"}} key={index} className={`badge ${colors[index % colors.length]}`}>
                         {element}
                     </span>
                 ))}

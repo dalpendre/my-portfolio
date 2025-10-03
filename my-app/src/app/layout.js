@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "./globals.css";
-import Image from "next/image";
 import CustomImage from 'CustomImage';
 
 export const metadata = {
@@ -16,19 +15,16 @@ export default function RootLayout({ children }) {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="relative h-screen w-screen text-white">
-        <div className="bg-red-500 p-4 text-white mb-4">
-        If this is red, Tailwind is working!
-      </div>
         <CustomImage
           src="/img/coding_wallpaper-js.webp"
           alt="Coding background"
           fill
-          className="object-cover z-0 opacity-30"
+          className="object-cover z-0 opacity-30 border-4 border-[#00E6E6]"
           priority
         />
         <div className="flex flex-col">
 
-          <nav className="fixed top-0 inset-x-0 z-50 h-14 border-white/10 bg-cyan-950/40">
+          <nav className="fixed top-0 inset-x-0 z-50 h-14 border-white/10" style={{backgroundColor: "#08334466"}}>
             <div className="mx-auto max-w-6xl px-4 sm:px-6 h-full flex items-center justify-between">
               <a
                 href="#"

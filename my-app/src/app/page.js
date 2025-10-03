@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import {projects} from "@/app/data/projects";
 import Card from "./projects/card";
 import CustomImage from "CustomImage";
@@ -16,7 +15,7 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-sm-auto">
                                     <CustomImage
-                                        className="rounded-full brightness-100 opacity-100"
+                                        className="rounded-full brightness-100 opacity-100 border-4 border-[#00E6E6]"
                                         src="/img/profile_pic.jpeg"
                                         alt="Next.js logo"
                                         width={180}
@@ -27,7 +26,8 @@ export default function Home() {
                                 <div className="col-sm-auto">
                                     <h1 style={{color: "#00FFFF"}}><b><b>Diogo</b></b> Alpendre</h1>
                                     <h4 className="bio-text text-cyan-700">Full-Stack Developer</h4>
-                                    <p><b>2 years</b> of professional experience</p>
+                                    <h5><b style={{color: "#00FFFF"}}>2 years</b> of professional experience</h5>
+                                    <br/>
                                     <div className="row">
                                         <div className="col-sm-auto">
                                             <CustomImage
@@ -63,6 +63,16 @@ export default function Home() {
                                             <CustomImage 
                                                 className="brightness-120 opacity-100"
                                                 src="/img/spring-boot-rect-v2.png"
+                                                alt="Spring Boot logo"
+                                                width={100}
+                                                height={100}
+                                                priority
+                                            />
+                                        </div>  
+                                        <div className="col-sm-auto">
+                                            <CustomImage 
+                                                className="brightness-120 opacity-100"
+                                                src="/img/csharp-logo-v2.png"
                                                 alt="Spring Boot logo"
                                                 width={100}
                                                 height={100}

@@ -8,6 +8,17 @@ export default function Card(props) {
 
   const [show, setShow] = useState(false);
 
+  const spreadStack = stack.split(' • ');
+  const colors = [
+        "bg-primary",
+        "bg-success",
+        "bg-danger",
+        "bg-warning",
+        "bg-info",
+        "bg-secondary",
+        "bg-dark"
+  ];
+
   return (
     <div 
       className="card h-100 position-relative"
@@ -33,7 +44,13 @@ export default function Card(props) {
 
       <div className="card-body text-center">
         <h4 className="card-title font-extrabold mt-3">{title}</h4>
-        <p className="text-gray-600">{stack}</p>
+        
+        {spreadStack.map((element, index) => (
+          <span style={{ marginRight: "10px" }} key={index} className={`badge ${colors[index % colors.length]}`}>
+            {element}
+          </span>
+        ))}
+        <br/><br/>
         <p className="card-text">{description}</p>
       </div>
       <div className="d-flex justify-content-center gap-3 mb-3">  
@@ -60,7 +77,7 @@ export default function Card(props) {
           View on GitHub
         </a>
       </div>
-      <CardModal show={show} setShow={setShow} title={title} fullDescription={fullDescription} stack={stack} repoUrl={repoUrl} imgSrc={imgSrc} imgAlt={imgAlt} />
+      <CardModal show={show} setShow={setShow} title={title} fullDescription={fullDescription} spreadStack={spreadStack} colors={colors} repoUrl={repoUrl} imgSrc={imgSrc} imgAlt={imgAlt} />
     </div>
   );
 }
