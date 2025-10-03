@@ -14,6 +14,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+
+  env: {
+    CUSTOM_KEY: '/my-portfolio',
+  },
   
   // 5. Add trailing slash for better GitHub Pages compatibility
   trailingSlash: true,
