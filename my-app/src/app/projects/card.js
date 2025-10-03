@@ -53,9 +53,9 @@ export default function Card(props) {
         <br/><br/>
         <p className="card-text">{description}</p>
       </div>
-      <div className="d-flex justify-content-center gap-3 mb-3">  
+      <div className="d-flex justify-content-center gap-3 mb-3 flex-wrap">  
         <button 
-          className="btn text-white" 
+          className="btn text-white flex-grow-0" 
           style={{ 
             backgroundColor: "#083344", // dark blue
             border: "none"
@@ -66,7 +66,7 @@ export default function Card(props) {
         </button>
         <a 
           href={repoUrl} 
-          className="btn" 
+          className="btn flex-grow-0" 
           style={{ 
             color: "#1E3A8A", // slightly darker blue text
             border: "1px solid #1E3A8A",
