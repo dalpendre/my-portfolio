@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
 
               <a
                 className="hidden sm:inline-flex text-white h-8 items-center rounded-full border border-white/15 px-3 text-xs hover:bg-white/10"
-                href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
+                href={`mailto:${"dalpendre1999@gmail.com"}`}
               >
                 Talk to me
               </a>
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
           <footer className="fixed bottom-0 inset-x-0 border-t border-white/10 bg-black py-4 flex items-center justify-center gap-6 z-50">
             <a
               className="flex items-center gap-2 text-white !no-underline hover:underline-offset-4"
-              href={process.env.NEXT_PUBLIC_GITHUB}
+              href={"https://github.com/dalpendre"}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
             </a>
             <a
               className="flex items-center gap-2 text-white !no-underline hover:underline-offset-4"
-              href={process.env.NEXT_PUBLIC_LINKEDIN}
+              href={"https://www.linkedin.com/in/diogo-alpendre-923132141"}
               target="_blank"
               rel="noopener noreferrer"
             >
