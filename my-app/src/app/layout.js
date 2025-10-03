@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
           
-          <footer className="fixed bottom-0 inset-x-0 border-t border-white/10 bg-black py-4 flex items-center justify-center gap-6 z-50">
+          <footer className="fixed bottom-0 inset-x-0 border-t border-white/10 bg-black/50 py-4 flex items-center justify-center gap-6 z-50">
             <a
               className="flex items-center gap-2 text-white !no-underline hover:underline-offset-4"
               href={"https://github.com/dalpendre"}
