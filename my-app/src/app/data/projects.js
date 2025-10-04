@@ -20,9 +20,7 @@ export const projects = [
     title: "CubixIO",
     description: "Smart cubic interface to lookup data in data warehouses",
     fullDescription: `<p><u><b>In progress</b></u></p>
-      <p>This project is focused on designing and implementing an interactive 3D visualization of data, supported by <b>Three.js</b> and developed in <b>React</b>.
-      <p>The data model was based on <b>Intelligent Transport Systems (ITS)</b> protocols, including <b>CAM</b>, <b>DENM</b>, and <b>IVI</b>. For each protocol, the warehouse schema was structured around a centralized <b>fact table</b> complemented by multiple <b>dimension tables</b> to capture relevant attributes.</p>
-      <b>Work n seeder</b> was developed to generate test data and validate the correctness and reliability of the <b>ETL pipeline</b>.</p>
+      <p>This project is focused on designing and implementing an interactive 3D visualization of data existing on data warehouses or other databases, supported by <b>Three.js</b> and developed in <b>React</b> and <b>C#</b>.
     `,
     stack: "React • C# • SQL",
     repoUrl: "https://github.com/dalpendre/CubixIO",
@@ -34,10 +32,13 @@ export const projects = [
     id: 3,
     title: "matchplanner",
     description: "Developed a web and mobile application for managing e-sports events, allowing users to register events, create posts, and comment within event communities.",
-    fullDescription: `Built a full-stack application for web and mobile platforms to facilitate the organization and participation in e-sports events. Users can register events, 
-    post updates, and engage with other participants through comments, creating an interactive community around each event. Implemented responsive and user-friendly interfaces for 
-    both web and mobile, ensuring seamless access across devices. The backend handles event management, user authentication, and real-time data updates, while the frontend delivers 
-    an intuitive user experience. This project demonstrates skills in full-stack development, cross-platform app design, and interactive community-driven features.`,
+    fullDescription: `<p><u><b>E-sports Event Management Platform</b></u></p> <p>This project focused on developing a <b>web and mobile 
+    application</b> for managing <b>e-sports events</b>, enabling users to <b>create events</b>, share <b>updates and posts</b>, and 
+    interact through <b>comments</b> within event-specific communities.</p> <p>The system architecture was designed as a <b>full-stack 
+    solution</b>, featuring a <b>responsive frontend</b> for both <b>web and mobile platforms</b> and a robust <b>backend</b> responsible 
+    for <b>event management</b>, <b>user authentication</b>, and <b>real-time data synchronization</b>.</p> <p>Additionally, emphasis was 
+    placed on creating an <b>interactive</b> and <b>user-friendly interface</b> to ensure a seamless experience across devices, fostering 
+    <b>community engagement</b> and <b>active participation</b> among users.</p>`,
     stack: "HTML • Yii2 • PHP • Android • Java",
     repoUrl: "https://github.com/TheDanielz3/MatchPlanner",
     imgSrc: "/img/matchplanner-index.png",
@@ -60,11 +61,13 @@ export const projects = [
     id: 5,
     title: "Google scholar shell",
     description: "Bash shell script to extract citation statistics from Google Scholar profiles",
-    fullDescription: `Created a Bash-based tool that automates the extraction of scholar information from Google Scholar profiles.
-    The script uses web scraping techniques and command-line utilities to parse and organize the data into a readable format. 
-    Designed to handle multiple profiles efficiently, it provides researchers with quick access to structured academic metrics without manual searching. 
-    Implemented error handling and data validation to ensure accuracy and reliability. This project demonstrates practical skills in shell scripting, web scraping, and data processing
-    for academic research purposes.`,
+    fullDescription: `<p><u><b>Automated Scholar Data Extraction Tool</b></u></p> <p>This project involved developing a <b>Bash-based 
+    automation tool</b> designed to extract <b>academic profile information</b> from <b>Google Scholar</b> using <b>web scraping</b> 
+    techniques and <b>command-line utilities</b>.</p> <p>The tool efficiently processes <b>multiple profiles</b> simultaneously, parsing 
+    and organizing the retrieved data into a <b>structured and readable format</b> to provide quick access to key <b>academic metrics</b> 
+    without manual searching.</p> <p>Comprehensive <b>error handling</b> and <b>data validation</b> mechanisms were implemented to ensure 
+    <b>accuracy</b> and <b>reliability</b>, demonstrating practical skills in <b>shell scripting</b>, <b>web scraping</b>, and <b>data processing</b> 
+    for <b>academic research automation</b>.</p>`,
     stack: "Linux • Bash",
     repoUrl: "https://github.com/dalpendre/SO.proj1_scholar_2019-2020.2191747",
     imgSrc: "/img/so-project-one.gif",
@@ -75,10 +78,13 @@ export const projects = [
     id: 6,
     title: "File frequency validator",
     description: "Developed a C terminal program to count the number of bytes in files and the number of files in directories, providing a simple utility for analyzing file sizes and directory contents.",
-    fullDescription: `Implemented a command-line program in C that recursively scans files and directories to calculate file sizes in bytes and count the number of files within 
-    directories. The program supports traversal of nested directories, providing accurate summaries for complex folder structures. It uses system calls and standard C library 
-    functions for file I/O and directory handling. Designed with efficiency and error handling in mind to manage large directories and potential access issues. This project 
-    demonstrates proficiency in C programming, file system manipulation, and terminal-based utility development.`,
+    fullDescription: `<p><u><b>Recursive File and Directory Scanner</b></u></p> <p>This project involved developing a <b>command-line 
+    program in C</b> to <b>recursively scan files and directories</b>, calculating <b>file sizes</b> in bytes and <b>counting the number 
+    of files</b> within each directory.</p> <p>The program supports <b>nested directory traversal</b>, providing accurate summaries for 
+    <b>complex folder structures</b> and leveraging <b>system calls</b> along with <b>standard C library functions</b> for file I/O and 
+    directory handling.</p> <p>Designed with <b>efficiency</b> and robust <b>error handling</b> in mind, it effectively manages <b>large 
+    directories</b> and potential access issues. This project demonstrates proficiency in <b>C programming</b>, <b>file system 
+    manipulation</b>, and <b>terminal-based utility development</b>.</p>`,
     stack: "Linux • C • GCC",
     repoUrl: "https://github.com/dalpendre/SO.proj2_freqCounter_2019-2020.2191747",
     imgSrc: "/img/work_in_progress.jpg",
