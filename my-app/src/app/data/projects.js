@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "conte-detector-tf",
+    title: "cone-detector-tf",
     description: "Tensorflow AI system to detect colored cones.",
     fullDescription: ``,
     stack: "Python • Tensorflow",
