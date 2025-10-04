@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           <nav className="fixed top-0 inset-x-0 z-50 h-14 border-white/10" style={{backgroundColor: "#08334466"}}>
             <div className="mx-auto max-w-6xl px-4 sm:px-6 h-full flex items-center justify-between">
               <a
-                href="#"
+                href=""
                 className="font-semibold text-white no-underline hover:underline underline-offset-2"
               >
                 <span className="font-bold text-xl">Diogo </span><span className="font-light text-xl">Alpendre</span>
