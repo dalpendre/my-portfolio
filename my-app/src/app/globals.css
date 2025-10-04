@@ -19,5 +19,4 @@ html, body {
   font-family: 'Montserrat', sans-serif !important;
   height: auto !important;
   overflow: auto !important;
-  filter: invert(1) hue-rotate(180deg);
 }
