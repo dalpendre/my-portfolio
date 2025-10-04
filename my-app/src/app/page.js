@@ -29,7 +29,7 @@ export default function Home() {
                                     <h5><b style={{color: "#00FFFF"}}>2 years</b> of professional experience</h5>
                                     <br/>
                                     <div className="row">
-                                        <div className="col-sm-auto">
+                                        <div className="col-auto">
                                             <CustomImage
                                                 className="brightness-120 opacity-100"
                                                 src="/img/js-logo.png"
@@ -39,7 +39,7 @@ export default function Home() {
                                                 priority
                                             />
                                         </div>
-                                        <div className="col-sm-auto">
+                                        <div className="col-auto">
                                             <CustomImage
                                                 className="brightness-120 opacity-100"
                                                 src="/img/react.png"
@@ -49,7 +49,7 @@ export default function Home() {
                                                 priority
                                             />
                                         </div>
-                                        <div className="col-sm-auto">
+                                        <div className="col-auto">
                                             <CustomImage
                                                 className="brightness-120 opacity-100"
                                                 src="/img/java-logo-v2.png"
@@ -59,7 +59,7 @@ export default function Home() {
                                                 priority
                                             />
                                         </div>
-                                        <div className="col-sm-auto">
+                                        <div className="col-auto">
                                             <CustomImage 
                                                 className="brightness-120 opacity-100"
                                                 src="/img/spring-boot-rect-v2.png"
@@ -69,7 +69,7 @@ export default function Home() {
                                                 priority
                                             />
                                         </div>  
-                                        <div className="col-sm-auto">
+                                        <div className="col-auto">
                                             <CustomImage 
                                                 className="brightness-120 opacity-100"
                                                 src="/img/csharp-logo-v2.png"
