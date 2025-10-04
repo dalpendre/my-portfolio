@@ -17,10 +17,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "CubixIO",
+    title: `CubixIO`,
     description: "Smart cubic interface to lookup data in data warehouses",
     fullDescription: `<p><u><b>In progress</b></u></p>
-      <p>This project is focused on designing and implementing an interactive 3D visualization of data existing on data warehouses or other databases, supported by <b>Three.js</b> and developed in <b>React</b> and <b>C#</b>.
+      <p>This project is focused on designing and implementing an interactive 3D visualization of data existing on data warehouses or 
+      other databases, supported by <b>Three.js</b> and developed in <b>React</b> and <b>C#</b>.
     `,
     stack: "React • C# • SQL",
     repoUrl: "https://github.com/dalpendre/CubixIO",
