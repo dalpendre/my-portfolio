@@ -1,5 +1,4 @@
 import CustomImage from "CustomImage";
-import Image from "next/image";
 import { Button, Modal } from "react-bootstrap";
 
 export default function CardModal(props){

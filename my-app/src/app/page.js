@@ -85,7 +85,7 @@ export default function Home() {
                             <div className="container">
                               <div className="row align-items-left text-white">
                                 <br/>
-                                <h4 className="relative z-50 cursor-pointer text-left text-white no-underline">👨‍💻 About me</h4>
+                                <h4 className="relative z-50 cursor-pointer text-left no-underline">👨‍💻 About me</h4>
                                 <p className="text-justify">
                                     I am a software developer with nearly two years of experience specializing in 
                                     <span className="font-bold" style={{color: "#00FFFF"}}> full-stack development</span> using 
