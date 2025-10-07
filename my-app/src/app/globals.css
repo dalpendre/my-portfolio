@@ -345,3 +345,351 @@ footer {
     background: rgba(0, 217, 255, 0.2);
     transform: translateY(-3px);
 }
+
+/* Add these updated modal styles to your existing globals.css */
+
+/* Modal Dialog */
+.custom-project-modal .modal-dialog {
+  max-width: 1000px !important;
+}
+
+/* Modal Content - Override Bootstrap */
+.custom-project-modal .modal-content {
+  background: linear-gradient(135deg, #1a2942 0%, #0f1d33 100%) !important;
+  border-radius: 24px !important;
+  border: 1px solid rgba(0, 217, 255, 0.2) !important;
+  box-shadow: 0 25px 100px rgba(0, 0, 0, 0.5) !important;
+  overflow: hidden !important;
+}
+
+/* Header Styles - Override Bootstrap */
+.custom-project-modal .modal-header {
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.15), rgba(0, 153, 255, 0.1)) !important;
+  border-bottom: 1px solid rgba(0, 217, 255, 0.2) !important;
+  padding: 2rem 2.5rem !important;
+  border-top-left-radius: 24px !important;
+  border-top-right-radius: 24px !important;
+}
+
+.custom-project-modal .modal-title {
+  font-size: 2rem !important;
+  color: #fff !important;
+  margin-bottom: 0.5rem !important;
+  background: linear-gradient(135deg, #ffffff, #00d9ff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-align: left !important;
+}
+
+.custom-project-modal .modal-subtitle {
+  font-size: 0.95rem;
+  color: #8892a6;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.custom-project-modal .modal-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.custom-project-modal .modal-tag {
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e1e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.custom-project-modal .modal-tag-primary {
+  background: rgba(0, 217, 255, 0.2);
+  color: #00d9ff;
+  border-color: rgba(0, 217, 255, 0.4);
+}
+
+.custom-project-modal .modal-tag:hover {
+  transform: translateY(-2px);
+}
+
+/* Close Button - Override Bootstrap */
+.custom-project-modal .btn-close {
+  filter: invert(1) !important;
+  opacity: 0.7 !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-project-modal .btn-close:hover {
+  opacity: 1 !important;
+  transform: rotate(90deg) !important;
+}
+
+/* Body Styles - Override Bootstrap */
+.custom-project-modal .modal-body {
+  padding: 2.5rem !important;
+  max-height: calc(90vh - 280px) !important;
+  overflow-y: auto !important;
+  background: transparent !important;
+}
+
+.custom-project-modal .content-grid-redesign {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.custom-project-modal .content-section-redesign {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.custom-project-modal .section-header-redesign {
+  margin-bottom: 0.5rem;
+}
+
+.custom-project-modal .section-title-redesign {
+  font-size: 1rem;
+  color: #00d9ff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-project-modal .section-title-redesign::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #00d9ff, #0099ff);
+  border-radius: 2px;
+}
+
+.custom-project-modal .description-text-redesign {
+  font-size: 1rem;
+  color: #c5d0e0;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.custom-project-modal .description-text-redesign p {
+  margin-bottom: 1rem;
+}
+
+.custom-project-modal .description-text-redesign strong,
+.custom-project-modal .description-text-redesign b {
+  color: #00d9ff;
+  font-weight: 600;
+}
+
+.custom-project-modal .description-text-redesign ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-project-modal .description-text-redesign li {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.custom-project-modal .description-text-redesign li::before {
+  content: '▹';
+  color: #00d9ff;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+/* Image Preview */
+.custom-project-modal .image-preview-container {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 217, 255, 0.2);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.custom-project-modal .image-preview-container:hover {
+  border-color: rgba(0, 217, 255, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 217, 255, 0.15);
+}
+
+.custom-project-modal .preview-image-redesign {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.custom-project-modal .image-preview-container:hover .preview-image-redesign {
+  transform: scale(1.02);
+}
+
+/* Footer Styles - Override Bootstrap */
+.custom-project-modal .modal-footer {
+  padding: 1.5rem 2.5rem !important;
+  border-top: 1px solid rgba(0, 217, 255, 0.1) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border-bottom-left-radius: 24px !important;
+  border-bottom-right-radius: 24px !important;
+}
+
+.custom-project-modal .footer-info-redesign {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.custom-project-modal .footer-badge-redesign {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8892a6;
+  font-size: 0.9rem;
+}
+
+.custom-project-modal .badge-icon {
+  font-size: 1.1rem;
+}
+
+.custom-project-modal .badge-label {
+  color: #8892a6;
+}
+
+.custom-project-modal .badge-value {
+  color: #00d9ff;
+  font-weight: 600;
+}
+
+.custom-project-modal .action-buttons-redesign {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Button Styles - Override Bootstrap */
+.custom-project-modal .btn-secondary-redesign {
+  padding: 0.75rem 2rem !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #e1e8f0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-project-modal .btn-secondary-redesign:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: #fff !important;
+}
+
+.custom-project-modal .btn-primary-redesign {
+  padding: 0.75rem 2rem !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  background: linear-gradient(135deg, #00d9ff, #0099ff) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(0, 217, 255, 0.3) !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+}
+
+.custom-project-modal .btn-primary-redesign:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 25px rgba(0, 217, 255, 0.5) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* Custom Scrollbar */
+.custom-project-modal .modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-project-modal .modal-body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.custom-project-modal .modal-body::-webkit-scrollbar-thumb {
+  background: rgba(0, 217, 255, 0.3);
+  border-radius: 4px;
+}
+
+.custom-project-modal .modal-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 217, 255, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .custom-project-modal .content-grid-redesign {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .custom-project-modal .modal-header {
+    padding: 1.5rem !important;
+  }
+
+  .custom-project-modal .modal-body {
+    padding: 1.5rem !important;
+  }
+
+  .custom-project-modal .modal-title {
+    font-size: 1.5rem !important;
+  }
+
+  .custom-project-modal .modal-footer {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    padding: 1.5rem !important;
+  }
+
+  .custom-project-modal .footer-info-redesign {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .custom-project-modal .action-buttons-redesign {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .custom-project-modal .action-buttons-redesign .btn-secondary-redesign,
+  .custom-project-modal .action-buttons-redesign .btn-primary-redesign {
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+
+/* Animation for modal entrance */
+.custom-project-modal.show .modal-dialog {
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
