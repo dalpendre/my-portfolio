@@ -83,9 +83,13 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="container">
-                              <div className="row align-items-left text-white">
-                                <br/>
-                                <h4 className="relative z-50 cursor-pointer text-left no-underline">👨‍💻 About me</h4>
+                              <div className="row align-items-left text-white mb-3">
+                                <div className="col lg-3 flex items-center">
+                                    <h4 className="relative z-50 cursor-pointer text-left text-white no-underline mr-4">
+                                        👨‍💻 About me
+                                    </h4>
+                                    <div className="col lg-6 w-100 border-t-2" style={{color: "#00FFFF"}}></div>
+                                </div>
                                 <p className="text-justify">
                                     I am a software developer with nearly two years of experience specializing in 
                                     <span className="font-bold" style={{color: "#00FFFF"}}> full-stack development</span> using 
@@ -103,9 +107,12 @@ export default function Home() {
                                     and transplant organizations.
                                 </p>
                               </div>
-                              <div className="row align-items-left">
-                                <div className="col-sm-auto">
-                                    <h4 className="relative z-50 cursor-pointer text-left text-white no-underline">👨‍💻 My Projects</h4>
+                              <div className="row align-items-left mb-3">
+                                <div className="col lg-3 flex items-center">
+                                    <h4 className="relative z-50 cursor-pointer text-left text-white no-underline mr-4">
+                                        👨‍💻 My Projects
+                                    </h4>
+                                    <div className="col lg-6 w-100 border-t-2" style={{color: "#00FFFF"}}></div>
                                 </div>
                               </div>
                               <div className="row align-items-left">
