@@ -256,7 +256,7 @@ h1 {
 
 .project-card:hover {
     transform: translateY(-8px);
-    border-color: rgba(0, 217, 255, 0.4);
+    border-color: #00d9ff;
     box-shadow: 0 20px 60px rgba(0, 217, 255, 0.15);
 }
 
