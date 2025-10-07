@@ -1,8 +1,8 @@
 "use client";
 
 import {projects} from "@/app/data/projects";
-import Card from "./projects/card";
 import CustomImage from "CustomImage";
+import CardV2 from "./projects/card-v2";
 
 export default function Home() {
 
@@ -118,8 +118,8 @@ export default function Home() {
                               <div className="row align-items-left">
                                 {
                                   projects.map((project) => (
-                                  <div className="col-sm-3 mb-3" key={project.id}>
-                                    <Card title={project.title} description={project.description} fullDescription={project.fullDescription} stack={project.stack}
+                                  <div className="col-sm-4 mb-3" key={project.id}>
+                                    <CardV2 title={project.title} description={project.description} fullDescription={project.fullDescription} stack={project.stack}
                                         repoUrl={project.repoUrl} imgSrc={project.imgSrc} imgAlt={project.imgAlt} year={project.year} />
                                   </div>
                                 ))}

@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Vechicle data on Maps",
+    title: "Vechicle Data on Maps",
     description: "Designed and implemented a Data Warehouse on PostgreSQL, with a custom ETL pipeline built in Python to automate data extraction, transformation, and loading.",
     fullDescription: `<p><u><b>Final CS degree project</b></u></p>
       <p>This project focused on designing and implementing a <b>Data Warehouse</b> in <b>PostgreSQL</b>, supported by a custom <b>ETL pipeline</b> developed in <b>Python</b> to automate <b>data extraction, transformation, and loading</b> of real-time vehicle location data.</p>
@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "matchplanner",
+    title: "MatchPlanner",
     description: "Developed a web and mobile application for managing e-sports events, allowing users to register events, create posts, and comment within event communities.",
     fullDescription: `<p><u><b>E-sports Event Management Platform</b></u></p> <p>This project focused on developing a <b>web and mobile 
     application</b> for managing <b>e-sports events</b>, enabling users to <b>create events</b>, share <b>updates and posts</b>, and 
@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "cone-detector-tf",
+    title: "Cone Detector TF",
     description: "Tensorflow AI system to detect colored cones.",
     fullDescription: ``,
     stack: "Python • Tensorflow",
