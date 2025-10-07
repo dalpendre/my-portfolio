@@ -84,11 +84,11 @@ export default function Home() {
                             </div>
                             <div className="container">
                               <div className="row align-items-left text-white mb-3">
-                                <div className="col lg-3 flex items-center">
-                                    <h4 className="relative z-50 cursor-pointer text-left text-white no-underline mr-4">
-                                        👨‍💻 About me
-                                    </h4>
-                                    <div className="col lg-6 w-100 border-t-2" style={{color: "#00FFFF"}}></div>
+                                <div className="flex items-center w-full mb-4">
+                                <h4 className="relative z-50 cursor-pointer text-left text-white no-underline mr-4">
+                                    About me
+                                </h4>
+                                <div className="flex-1 border-t-2" style={{ borderColor: "#00FFFF" }}></div>
                                 </div>
                                 <p className="text-justify">
                                     I am a software developer with nearly two years of experience specializing in 
@@ -108,11 +108,11 @@ export default function Home() {
                                 </p>
                               </div>
                               <div className="row align-items-left mb-3">
-                                <div className="col lg-3 flex items-center">
+                                <div className="flex items-center w-full mb-4">
                                     <h4 className="relative z-50 cursor-pointer text-left text-white no-underline mr-4">
-                                        👨‍💻 My Projects
+                                        My Projects
                                     </h4>
-                                    <div className="col lg-6 w-100 border-t-2" style={{color: "#00FFFF"}}></div>
+                                    <div className="flex-1 border-t-2" style={{ borderColor: "#00FFFF" }}></div>
                                 </div>
                               </div>
                               <div className="row align-items-left">
